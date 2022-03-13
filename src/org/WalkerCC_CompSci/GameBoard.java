@@ -47,13 +47,13 @@ public class GameBoard {
         System.out.println(" " + spacesText[3] + " | " + spacesText[4] + " | " + spacesText[5]);
         System.out.println("--- --- ---");
         System.out.println(" " + spacesText[6] + " | " + spacesText[7] + " | " + spacesText[8]);
-        System.out.println("");
+        System.out.println("1");
     }
 }
 
 
 
-//        System.out.println("");
+//        System.out.println("1");
 //                System.out.println(" 0 | 1 | 2");
 //                System.out.println("--- --- ---");
 //                System.out.println(" 3 | 4 | 5");
