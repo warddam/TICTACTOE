@@ -10,13 +10,15 @@ public class GameBoard {
     String spacesText[];
 
     public GameBoard(){
+
+        spaces = new Space[8];
         spaces = new Space[9];
 
 
         for(int i = 0; i < spaces.length; i++){
             spaces[i] = Space.EMPTY;
         }
-
+        spacesText = new String[8];
         spacesText = new String[9];
 
         for(int i = 0; i < spacesText.length; i++){
